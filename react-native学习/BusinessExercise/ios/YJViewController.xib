@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YJViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="281-56-yER">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="aXN-E4-Yy1"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="Title" id="GAG-u7-Qxv">
+                            <barButtonItem key="rightBarButtonItem" title="Item" id="3rJ-cy-HcG">
+                                <connections>
+                                    <action selector="next:" destination="-1" id="pQQ-W7-kZX"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="281-56-yER" secondAttribute="bottom" constant="556" id="EqE-g5-5SD"/>
+                <constraint firstItem="281-56-yER" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Gpk-gX-4Wa"/>
+                <constraint firstAttribute="trailing" secondItem="281-56-yER" secondAttribute="trailing" id="Ksa-iX-5dv"/>
+                <constraint firstItem="281-56-yER" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="XvB-Tm-XaE"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="EqE-g5-5SD"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="337" y="295"/>
+        </view>
+    </objects>
+</document>

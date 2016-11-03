@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		577B25C61D659DE400F72E84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 577B25C51D659DE400F72E84 /* main.m */; };
+		577B25C91D659DE400F72E84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 577B25C81D659DE400F72E84 /* AppDelegate.m */; };
+		577B25CC1D659DE400F72E84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577B25CB1D659DE400F72E84 /* ViewController.m */; };
+		577B25CF1D659DE500F72E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577B25CD1D659DE500F72E84 /* Main.storyboard */; };
+		577B25D11D659DE500F72E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577B25D01D659DE500F72E84 /* Assets.xcassets */; };
+		577B25D41D659DE500F72E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577B25D21D659DE500F72E84 /* LaunchScreen.storyboard */; };
+		A953467693C776A047CB22B4 /* libPods-Hybird_ReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5B5760289C6CD4C211A409 /* libPods-Hybird_ReactNative.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C5B5760289C6CD4C211A409 /* libPods-Hybird_ReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hybird_ReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		308E748FD31AFF21E4F405C2 /* Pods-Hybird_ReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hybird_ReactNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hybird_ReactNative/Pods-Hybird_ReactNative.release.xcconfig"; sourceTree = "<group>"; };
+		452B406E75006D5F774735F1 /* Pods-Hybird_ReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hybird_ReactNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hybird_ReactNative/Pods-Hybird_ReactNative.debug.xcconfig"; sourceTree = "<group>"; };
+		577B25C11D659DE400F72E84 /* Hybird_ReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hybird_ReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		577B25C51D659DE400F72E84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		577B25C71D659DE400F72E84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		577B25C81D659DE400F72E84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		577B25CA1D659DE400F72E84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		577B25CB1D659DE400F72E84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		577B25CE1D659DE500F72E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		577B25D01D659DE500F72E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		577B25D31D659DE500F72E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		577B25D51D659DE500F72E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		577B25BE1D659DE400F72E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A953467693C776A047CB22B4 /* libPods-Hybird_ReactNative.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D728EAE3D360961E4484E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				452B406E75006D5F774735F1 /* Pods-Hybird_ReactNative.debug.xcconfig */,
+				308E748FD31AFF21E4F405C2 /* Pods-Hybird_ReactNative.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		577B25B81D659DE400F72E84 = {
+			isa = PBXGroup;
+			children = (
+				577B25C31D659DE400F72E84 /* Hybird_ReactNative */,
+				577B25C21D659DE400F72E84 /* Products */,
+				08D728EAE3D360961E4484E6 /* Pods */,
+				C93762F9172631CBC31B115E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		577B25C21D659DE400F72E84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				577B25C11D659DE400F72E84 /* Hybird_ReactNative.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		577B25C31D659DE400F72E84 /* Hybird_ReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				577B25C71D659DE400F72E84 /* AppDelegate.h */,
+				577B25C81D659DE400F72E84 /* AppDelegate.m */,
+				577B25CA1D659DE400F72E84 /* ViewController.h */,
+				577B25CB1D659DE400F72E84 /* ViewController.m */,
+				577B25CD1D659DE500F72E84 /* Main.storyboard */,
+				577B25D01D659DE500F72E84 /* Assets.xcassets */,
+				577B25D21D659DE500F72E84 /* LaunchScreen.storyboard */,
+				577B25D51D659DE500F72E84 /* Info.plist */,
+				577B25C41D659DE400F72E84 /* Supporting Files */,
+			);
+			path = Hybird_ReactNative;
+			sourceTree = "<group>";
+		};
+		577B25C41D659DE400F72E84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				577B25C51D659DE400F72E84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C93762F9172631CBC31B115E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B5760289C6CD4C211A409 /* libPods-Hybird_ReactNative.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		577B25C01D659DE400F72E84 /* Hybird_ReactNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577B25D81D659DE500F72E84 /* Build configuration list for PBXNativeTarget "Hybird_ReactNative" */;
+			buildPhases = (
+				77FD5D31832D130B8AAF2B93 /* [CP] Check Pods Manifest.lock */,
+				577B25BD1D659DE400F72E84 /* Sources */,
+				577B25BE1D659DE400F72E84 /* Frameworks */,
+				577B25BF1D659DE400F72E84 /* Resources */,
+				046914F534586B2CBB1C04F5 /* [CP] Embed Pods Frameworks */,
+				1A6852FC7CA14C3F1096BE35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hybird_ReactNative;
+			productName = Hybird_ReactNative;
+			productReference = 577B25C11D659DE400F72E84 /* Hybird_ReactNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		577B25B91D659DE400F72E84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张永俊";
+				TargetAttributes = {
+					577B25C01D659DE400F72E84 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 577B25BC1D659DE400F72E84 /* Build configuration list for PBXProject "Hybird_ReactNative" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 577B25B81D659DE400F72E84;
+			productRefGroup = 577B25C21D659DE400F72E84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				577B25C01D659DE400F72E84 /* Hybird_ReactNative */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		577B25BF1D659DE400F72E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577B25D41D659DE500F72E84 /* LaunchScreen.storyboard in Resources */,
+				577B25D11D659DE500F72E84 /* Assets.xcassets in Resources */,
+				577B25CF1D659DE500F72E84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		046914F534586B2CBB1C04F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hybird_ReactNative/Pods-Hybird_ReactNative-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A6852FC7CA14C3F1096BE35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hybird_ReactNative/Pods-Hybird_ReactNative-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77FD5D31832D130B8AAF2B93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		577B25BD1D659DE400F72E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577B25CC1D659DE400F72E84 /* ViewController.m in Sources */,
+				577B25C91D659DE400F72E84 /* AppDelegate.m in Sources */,
+				577B25C61D659DE400F72E84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		577B25CD1D659DE500F72E84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				577B25CE1D659DE500F72E84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		577B25D21D659DE500F72E84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				577B25D31D659DE500F72E84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		577B25D61D659DE500F72E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		577B25D71D659DE500F72E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		577B25D91D659DE500F72E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452B406E75006D5F774735F1 /* Pods-Hybird_ReactNative.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+				);
+				INFOPLIST_FILE = Hybird_ReactNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ddn.Hybird-ReactNative";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/React/React/**";
+			};
+			name = Debug;
+		};
+		577B25DA1D659DE500F72E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308E748FD31AFF21E4F405C2 /* Pods-Hybird_ReactNative.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+				);
+				INFOPLIST_FILE = Hybird_ReactNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ddn.Hybird-ReactNative";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/React/React/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		577B25BC1D659DE400F72E84 /* Build configuration list for PBXProject "Hybird_ReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577B25D61D659DE500F72E84 /* Debug */,
+				577B25D71D659DE500F72E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577B25D81D659DE500F72E84 /* Build configuration list for PBXNativeTarget "Hybird_ReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577B25D91D659DE500F72E84 /* Debug */,
+				577B25DA1D659DE500F72E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 577B25B91D659DE400F72E84 /* Project object */;
+}

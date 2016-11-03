@@ -1,0 +1,234 @@
+{\rtf1\ansi\ansicpg936\cocoartf1404\cocoasubrtf460
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 AppleColorEmoji;
+\f3\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;\red64\green11\blue217;\red47\green180\blue29;\red180\green36\blue25;
+\red178\green178\blue178;\red133\green0\blue2;\red200\green20\blue201;\red192\green192\blue192;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf0 \CocoaLigature0 Last login: Fri Jul 29 13:18:19 on ttys000\
+localhost:~ ddn$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\
+
+\f1\b \cf2 ==>\cf0  This script will install:
+\f0\b0 \
+/usr/local/bin/brew\
+/usr/local/Library/...\
+/usr/local/share/doc/homebrew\
+/usr/local/share/man/man1/brew.1\
+/usr/local/share/zsh/site-functions/_brew\
+/usr/local/etc/bash_completion.d/brew\
+
+\f1\b \cf2 ==>\cf0  The following directories will be made group writable:
+\f0\b0 \
+/usr/local/.\
+/usr/local/bin\
+
+\f1\b \cf2 ==>\cf0  The following directories will have their owner set to \ul ddn
+\f0\b0 \ulnone :\
+/usr/local/.\
+/usr/local/bin\
+
+\f1\b \cf2 ==>\cf0  The following directories will have their group set to \ul admin
+\f0\b0 \ulnone :\
+/usr/local/.\
+/usr/local/bin\
+\
+Press RETURN to continue or any other key to abort\
+
+\f1\b \cf2 ==>\cf0  /usr/bin/sudo /bin/chmod g+rwx /usr/local/. /usr/local/bin
+\f0\b0 \
+Password:\
+
+\f1\b \cf2 ==>\cf0  /usr/bin/sudo /usr/sbin/chown ddn /usr/local/. /usr/local/bin
+\f0\b0 \
+
+\f1\b \cf2 ==>\cf0  /usr/bin/sudo /usr/bin/chgrp admin /usr/local/. /usr/local/bin
+\f0\b0 \
+
+\f1\b \cf2 ==>\cf0  /usr/bin/sudo /bin/mkdir -p /Users/ddn/Library/Caches/Homebrew
+\f0\b0 \
+
+\f1\b \cf2 ==>\cf0  /usr/bin/sudo /bin/chmod g+rwx /Users/ddn/Library/Caches/Homebrew
+\f0\b0 \
+
+\f1\b \cf2 ==>\cf0  /usr/bin/sudo /usr/sbin/chown ddn /Users/ddn/Library/Caches/Homebrew
+\f0\b0 \
+
+\f1\b \cf2 ==>\cf0  Downloading and installing Homebrew...
+\f0\b0 \
+remote: Counting objects: 530, done.\
+remote: Compressing objects: 100% (470/470), done.\
+remote: Total 530 (delta 32), reused 348 (delta 29), pack-reused 0\
+Receiving objects: 100% (530/530), 804.74 KiB | 12.00 KiB/s, done.\
+Resolving deltas: 100% (32/32), done.\
+From https://github.com/Homebrew/brew\
+ * [new branch]      master     -> origin/master\
+HEAD is now at 3469f17 audit: don't check formula linkage.\
+
+\f1\b \cf2 ==>\cf0  Tapping homebrew/core
+\f0\b0 \
+Cloning into '/usr/local/Library/Taps/homebrew/homebrew-core'...\
+remote: Counting objects: 3717, done.\
+remote: Compressing objects: 100% (3604/3604), done.\
+remote: Total 3717 (delta 15), reused 1946 (delta 4), pack-reused 0\
+Receiving objects: 100% (3717/3717), 2.88 MiB | 183.00 KiB/s, done.\
+Resolving deltas: 100% (15/15), done.\
+Checking connectivity... done.\
+Tapped 3595 formulae (3,743 files, 9.0M)\
+
+\f1\b \cf2 ==>\cf0  Installation successful!
+\f0\b0 \
+
+\f1\b \cf2 ==>\cf0  Next steps
+\f0\b0 \
+Run `brew help` to get started\
+Further documentation: https://git.io/brew-docs\
+
+\f1\b \cf2 ==>\cf0  Homebrew has enabled anonymous aggregate user behaviour analytics
+\f0\b0 \
+Read the analytics documentation (and how to opt-out) here:\
+  https://git.io/brew-analytics\
+localhost:~ ddn$ brew -v\
+Homebrew 0.9.9 (git revision 3469; last commit 2016-07-28)\
+Homebrew/homebrew-core (git revision 910e; last commit 2016-07-28)\
+localhost:~ ddn$ brew install watchman\
+
+\f1\b \cf3 ==>\cf0  Installing dependencies for watchman: \cf3 pcre
+\f0\b0 \cf0 \
+
+\f1\b \cf3 ==>\cf0  Installing watchman dependency: \cf3 pcre
+\f0\b0 \cf0 \
+
+\f1\b \cf2 ==>\cf0  Downloading https://homebrew.bintray.com/bottles/pcre-8.39.el_capitan.bottle
+\f0\b0 \
+######################################################################## 100.0%\
+
+\f1\b \cf2 ==>\cf0  Pouring pcre-8.39.el_capitan.bottle.tar.gz
+\f0\b0 \
+\cf4 \ul \ulc4 Error\cf0 \ulnone : The `brew link` step did not complete successfully\
+The formula built, but is not symlinked into /usr/local\
+Could not symlink lib/libpcre.1.dylib\
+/usr/local/lib is not writable.\
+\
+You can try again using:\
+  brew link pcre\
+
+\f1\b \cf2 ==>\cf0  Summary
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/pcre/8.39: 203 files, 5.4M\
+
+\f1\b \cf3 ==>\cf0  Installing \cf3 watchman
+\f0\b0 \cf0 \
+
+\f1\b \cf2 ==>\cf0  Downloading https://homebrew.bintray.com/bottles/watchman-4.6.0.el_capitan.b
+\f0\b0 \
+######################################################################## 100.0%\
+
+\f1\b \cf2 ==>\cf0  Pouring watchman-4.6.0.el_capitan.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/watchman/4.6.0: 21 files, 397.0K\
+localhost:~ ddn$ brew install flow\
+
+\f1\b \cf2 ==>\cf0  Downloading https://homebrew.bintray.com/bottles/flow-0.29.0.el_capitan.bott
+\f0\b0 \
+######################################################################## 100.0%\
+
+\f1\b \cf2 ==>\cf0  Pouring flow-0.29.0.el_capitan.bottle.tar.gz
+\f0\b0 \
+
+\f1\b \cf2 ==>\cf0  Caveats
+\f0\b0 \
+Bash completion has been installed to:\
+  /usr/local/etc/bash_completion.d\
+\
+zsh completion has been installed to:\
+  /usr/local/share/zsh/site-functions\
+
+\f1\b \cf2 ==>\cf0  Summary
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/flow/0.29.0: 7 files, 4.6M\
+localhost:~ ddn$ npm install -g react-native-cli\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  \cf7 tar.unpack\cf0  untar error /Users/ddn/.npm/react-native-cli/1.0.0/package.tgz\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  Darwin 15.4.0\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  \cf7 argv\cf0  "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "react-native-cli"\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  \cf7 node\cf0  v4.4.4\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  \cf7 npm \cf0  v2.15.1\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  \cf7 path\cf0  /usr/local/lib/node_modules/react-native-cli\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  \cf7 code\cf0  EACCES\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  \cf7 errno\cf0  -13\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  \cf7 syscall\cf0  mkdir\
+\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/react-native-cli'\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1      at Error (native)\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1   \{ [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/react-native-cli']\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1    errno: -13,\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1    code: 'EACCES',\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1    syscall: 'mkdir',\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1    path: '/usr/local/lib/node_modules/react-native-cli',\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1    fstream_type: 'Directory',\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1    fstream_path: '/usr/local/lib/node_modules/react-native-cli',\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1    fstream_class: 'DirWriter',\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1    fstream_stack: \
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1     [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1       '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1       'FSReqWrap.oncomplete (fs.js:82:15)' ] \}\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  \
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  Please try running this command again as root/Administrator.\
+\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1  Please include the following file with any support request:\
+\cf5 \cb0 npm\cf0 \cb1  \cf6 \cb0 ERR!\cf0 \cb1      /Users/ddn/npm-debug.log\
+localhost:~ ddn$ sudo npm install -g react-native-cli\
+Password:\
+/usr/local/bin/react-native -> /usr/local/lib/node_modules/react-native-cli/index.js\
+react-native-cli@1.0.0 /usr/local/lib/node_modules/react-native-cli\
+\uc0\u9500 \u9472 \u9472  semver@5.3.0\
+\uc0\u9500 \u9472 \u9472  minimist@1.2.0\
+\uc0\u9500 \u9472 \u9472  chalk@1.1.3 (escape-string-regexp@1.0.5, ansi-styles@2.2.1, supports-color@2.0.0, has-ansi@2.0.0, strip-ansi@3.0.1)\
+\uc0\u9492 \u9472 \u9472  prompt@0.2.14 (revalidator@0.1.8, pkginfo@0.4.0, read@1.0.7, winston@0.8.3, utile@0.2.1)\
+localhost:~ ddn$ cd /Users/ddn/Desktop/react-native
+\f3 \'d1\'a7\'cf\'b0
+\f0  \
+localhost:react-native
+\f3 \'d1\'a7\'cf\'b0
+\f0  ddn$ react-native init Helloword\
+This will walk you through creating a new React Native project in /Users/ddn/Desktop/react-native
+\f3 \'d1\'a7\'cf\'b0
+\f0 /Helloword\
+Installing react-native package from npm...\
+Setting up new React Native app in /Users/ddn/Desktop/react-native
+\f3 \'d1\'a7\'cf\'b0
+\f0 /Helloword\
+react@15.2.1 node_modules/react\
+\uc0\u9500 \u9472 \u9472  object-assign@4.1.0\
+\uc0\u9500 \u9472 \u9472  loose-envify@1.2.0 (js-tokens@1.0.3)\
+\uc0\u9492 \u9472 \u9472  fbjs@0.8.3 (immutable@3.8.1, ua-parser-js@0.7.10, isomorphic-fetch@2.2.1, promise@7.1.1, core-js@1.2.7)\
+
+\f1\b \cf8 To run your app on iOS:
+\f0\b0 \cf0 \
+\cf8    cd /Users/ddn/Desktop/react-native
+\f3 \'d1\'a7\'cf\'b0
+\f0 /Helloword\cf0 \
+\cf8    react-native run-ios\cf0 \
+\cf8    - or -\cf0 \
+\cf8    Open /Users/ddn/Desktop/react-native
+\f3 \'d1\'a7\'cf\'b0
+\f0 /Helloword/ios/Helloword.xcodeproj in Xcode\cf0 \
+\cf8    Hit the Run button\cf0 \
+
+\f1\b \cf8 To run your app on Android:
+\f0\b0 \cf0 \
+\cf8    Have an Android emulator running (quickest way to get started), or a device connected\cf0 \
+\cf8    cd /Users/ddn/Desktop/react-native
+\f3 \'d1\'a7\'cf\'b0
+\f0 /Helloword\cf0 \
+\cf8    react-native run-android\cf0 \
+localhost:react-native
+\f3 \'d1\'a7\'cf\'b0
+\f0  ddn$ \
+}
